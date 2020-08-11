@@ -2,4 +2,4 @@
 by Jaesung Rim, Haeyun Lee, Jucheol Won, [Sunghyun Cho](https://www.scho.pe.kr/). (pdf)
 
 ### Our results on real data
-<img src="./imgs/qualitative_comparison_v2.pdf" width="100%" alt="Real Photo">
+<img src="./imgs/qualative_for_readme.png" width="100%" alt="Real Photo">
