@@ -173,6 +173,10 @@ if __name__ == '__main__':
     print("please use skimage==0.17.2 and python3")
     exit()
 
+  if cv2.__version__ != '4.2.0':
+    print("please use cv2==4.2.0.32 and python3")
+    exit()
+
   result_dir = args.result_dir
   model_list = glob.glob(result_dir + '/*')
   models = []
