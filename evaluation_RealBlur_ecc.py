@@ -12,7 +12,7 @@ from skimage import util
 import cv2
 
 parser = argparse.ArgumentParser(description='eval arg')
-parser.add_argument('--result_dir', type=str, default='../../../result/RealBlur_J')
+parser.add_argument('--input_dir', type=str, default='../../../result/RealBlur_J')
 parser.add_argument('--gt_root', type=str, default='RealBlur-J_ECC_IMCORR_centroid_itensity_ref')
 parser.add_argument('--core', type=int, default=4)
 args = parser.parse_args()
@@ -177,8 +177,8 @@ if __name__ == '__main__':
     print("please use cv2==4.2.0.32 and python3")
     exit()
 
-  result_dir = args.result_dir
-  model_list = glob.glob(result_dir + '/*')
+  input_dir = args.input_dir
+  model_list = glob.glob(input_dir + '/*')
   models = []
   for model_path in model_list:
     if os.path.isdir(model_path):

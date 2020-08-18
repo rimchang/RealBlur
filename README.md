@@ -13,14 +13,15 @@ git clone --recurse-submodules https://github.com/rimchang/RealBlur.git
 
 ## Download
 
-For testing, Please download [RealBlur](http://cgdata.postech.ac.kr/sharing/QK934kLj3) dataset.
+For testing, download [RealBlur](http://cgdata.postech.ac.kr/sharing/QK934kLj3) dataset.
 
-For training same as our paper, Please download [RealBlur](http://cgdata.postech.ac.kr/sharing/QK934kLj3), [BSD-B](https://cgdata.postech.ac.kr/sharing/64CujqTyX), [GoPro](https://cv.snu.ac.kr/~snah/Deblur/dataset/GOPRO_Large.zip) dataset.
+For training same as our paper, download [RealBlur](http://cgdata.postech.ac.kr/sharing/QK934kLj3), [BSD-B](https://cgdata.postech.ac.kr/sharing/64CujqTyX), [GoPro](https://cv.snu.ac.kr/~snah/Deblur/dataset/GOPRO_Large.zip) dataset.
 
-All dataset should be located ./SRN-Deblur/testing_set, ./SRN-Deblur/training_set, ./DeblurGAN-v2/dataset. we recommend soft-link.
+All dataset should be located SRN-Deblur/testing_set/, SRN-Deblur/training_set/, DeblurGAN-v2/dataset/. 
 
-Also, we provide [trained model](https://cgdata.postech.ac.kr/sharing/CTIusjF8d). Please move ./SRN-Deblur/checkpoints, ./DeblurGAN-v2/checkpoints
+Also, we provide [trained model](https://cgdata.postech.ac.kr/sharing/CTIusjF8d). Please move checkpoint files to SRN-Deblur/checkpoints, DeblurGAN-v2/checkpoints.
 
+Please check "link_file.sh" for appropriate linking of directories and files.
 
 ## Training
 
@@ -53,7 +54,7 @@ python predict.py --img_pattern=./datalist/RealBlur_R_test_list.txt --weights_pa
 
 ```bash
 # python3, skimage == 0.17.2, cv2==4.2.0.32
-python evaluation_RealBlur_ecc --gt_root=RealBlur-J_ECC_IMCORR_centroid_itensity_ref --result_dir=RealBlur_J --core=1 
+python evaluation_RealBlur_ecc --gt_root=dataset/RealBlur-J_ECC_IMCORR_centroid_itensity_ref --input_dir=RealBlur_J --core=1 
 ```
 
 ## Post-processing
