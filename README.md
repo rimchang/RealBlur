@@ -75,7 +75,7 @@ python evaluation_RealBlur_ecc --gt_root=dataset/RealBlur-J_ECC_IMCORR_centroid_
 
 ## Post-processing
 
-Please go to [post processing](./post_processing/README.md)
+Please go to [post processing](./post_processing)
 
 ## Citation
 
