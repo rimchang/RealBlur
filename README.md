@@ -11,6 +11,22 @@ by Jaesung Rim, Haeyun Lee, Jucheol Won, [Sunghyun Cho](https://www.scho.pe.kr/)
 git clone --recurse-submodules https://github.com/rimchang/RealBlur.git
 ```
 
+## Prerequisites
+
+We recommend virtual environment using conda or pyenv.
+
+##### SRN-Deblur
+- Python2.7
+- cuda8.0
+- ./SRN-Deblur/requirements.txt
+
+##### DeblurGAN-v2
+
+- Python3.6.3
+- cuda9.0
+- ./DeblurGAN-v2/requirements.txt
+
+
 ## Download
 
 For testing, download [RealBlur](http://cgdata.postech.ac.kr/sharing/QK934kLj3) dataset.
