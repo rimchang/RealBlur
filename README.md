@@ -8,7 +8,7 @@ by Jaesung Rim, Haeyun Lee, Jucheol Won, [Sunghyun Cho](https://www.scho.pe.kr/)
 
 
 ```bash
-git clone --recurse-submodules
+git clone --recurse-submodules https://github.com/rimchang/RealBlur.git
 ```
 
 ## Download Datasets
