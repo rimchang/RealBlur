@@ -1,6 +1,0 @@
-[submodule "SRN-Deblur"]
-	path = SRN-Deblur
-	url = https://github.com/rimchang/SRN-Deblur.git
-[submodule "DeblurGANv2"]
-	path = DeblurGANv2
-	url = https://github.com/rimchang/DeblurGANv2.git
