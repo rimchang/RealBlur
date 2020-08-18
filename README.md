@@ -2,7 +2,7 @@
 by Jaesung Rim, Haeyun Lee, Jucheol Won, [Sunghyun Cho](https://www.scho.pe.kr/). [[pdf]](http://cg.postech.ac.kr/research/RealBlur/assets/pdf/RealBlur_eccv2020.pdf) [[project]](http://cg.postech.ac.kr/research/RealBlur/)
 
 ### Result on RealBlur Test set
-<img src="./imgs/qualative_for_readme.png" width="100%" alt="Real Photo">
+<img src="./imgs/qualatitive_result_web.png" width="100%" alt="Real Photo">
 
 ## Installation 
 
