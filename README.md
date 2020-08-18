@@ -1,5 +1,5 @@
 # Real-World Blur Dataset for Learning and Benchmarking Deblurring Algorithms
-by Jaesung Rim, Haeyun Lee, Jucheol Won, [Sunghyun Cho](https://www.scho.pe.kr/). [pdf](http://cg.postech.ac.kr/research/RealBlur/RealBlur_eccv2020.pdf) [project](http://cg.postech.ac.kr/research/RealBlur/)
+by Jaesung Rim, Haeyun Lee, Jucheol Won, [Sunghyun Cho](https://www.scho.pe.kr/). [pdf](http://cg.postech.ac.kr/research/RealBlur/assets/pdf/RealBlur_eccv2020.pdf) [project](http://cg.postech.ac.kr/research/RealBlur/)
 
 ### Result on RealBlur Test set
 <img src="./imgs/qualative_for_readme.png" width="100%" alt="Real Photo">
@@ -11,7 +11,16 @@ by Jaesung Rim, Haeyun Lee, Jucheol Won, [Sunghyun Cho](https://www.scho.pe.kr/)
 git clone --recurse-submodules https://github.com/rimchang/RealBlur.git
 ```
 
-## Download Datasets
+## Download
+
+For testing, Please download [RealBlur](http://cgdata.postech.ac.kr/sharing/QK934kLj3) dataset.
+
+For training same as our paper, Please download [RealBlur](http://cgdata.postech.ac.kr/sharing/QK934kLj3), [BSD-B](https://cgdata.postech.ac.kr/sharing/64CujqTyX), [GoPro](https://cv.snu.ac.kr/~snah/Deblur/dataset/GOPRO_Large.zip) dataset.
+
+All dataset should be located ./SRN-Deblur/testing_set, ./SRN-Deblur/training_set, ./DeblurGAN-v2/dataset. we recommend soft-link.
+
+Also, we provide [trained model](https://cgdata.postech.ac.kr/sharing/u7awkprtf). Please move ./SRN-Deblur/checkpoints, ./DeblurGAN-v2/checkpoints
+
 
 ## Training
 
@@ -24,8 +33,6 @@ python run_model.py --phase=train --batch=16 --lr=1e-4 --model=color --checkpoin
 python train_RealBlur_J_bsd_gopro_pretrain_ragan_ls.py
 python train_RealBlur_R_bsd_gopro_pretrain_ragan_ls.py
 ```
-
-## Pre-trained Model
 
 ## Testing
 
