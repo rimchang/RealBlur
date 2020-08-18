@@ -19,7 +19,7 @@ For training same as our paper, Please download [RealBlur](http://cgdata.postech
 
 All dataset should be located ./SRN-Deblur/testing_set, ./SRN-Deblur/training_set, ./DeblurGAN-v2/dataset. we recommend soft-link.
 
-Also, we provide [trained model](https://cgdata.postech.ac.kr/sharing/u7awkprtf). Please move ./SRN-Deblur/checkpoints, ./DeblurGAN-v2/checkpoints
+Also, we provide [trained model](https://cgdata.postech.ac.kr/sharing/CTIusjF8d). Please move ./SRN-Deblur/checkpoints, ./DeblurGAN-v2/checkpoints
 
 
 ## Training
