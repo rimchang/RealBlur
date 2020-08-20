@@ -113,7 +113,8 @@ def evaluation_folder(args_list):
     gt = io.imread(os.path.join(gt_root, scene_name, 'gt', 'gt_' + img_name)).astype('float32') / 255
 
     aligned_deblurred, aligned_xr1, cr1, shift = image_align(deblurred, gt)
-    aligned_blurred, aligned_xr2, cr2, shift = image_align(blurred, gt)
+    #aligned_blurred, aligned_xr2, cr2, shift = image_align(blurred, gt)
+
     aligned_blurred = blurred
     aligned_xr2 = gt
     cr2 = np.ones_like(blurred, dtype='float32')
