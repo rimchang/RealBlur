@@ -29,11 +29,11 @@ We recommend virtual environment using conda or pyenv.
 
 ## Download
 
-For testing, download [RealBlur](http://cgdata.postech.ac.kr/sharing/QK934kLj3) dataset.
+For testing, download [RealBlur](http://cgdata.postech.ac.kr/sharing/QK934kLj3).
 
-For training same as our paper, download [RealBlur](http://cgdata.postech.ac.kr/sharing/QK934kLj3), [BSD-B](https://cgdata.postech.ac.kr/sharing/64CujqTyX), [GoPro](https://cv.snu.ac.kr/~snah/Deblur/dataset/GOPRO_Large.zip) dataset.
+For training same as our paper, download [RealBlur](http://cgdata.postech.ac.kr/sharing/QK934kLj3), [BSD-B](https://cgdata.postech.ac.kr/sharing/64CujqTyX), [GoPro](https://cv.snu.ac.kr/~snah/Deblur/dataset/GOPRO_Large.zip).
 
-All dataset should be located SRN-Deblur/testing_set/, SRN-Deblur/training_set/, DeblurGAN-v2/dataset/. 
+All datasets should be located SRN-Deblur/testing_set/, SRN-Deblur/training_set/, DeblurGAN-v2/dataset/. 
 
 Also, we provide [trained model](https://cgdata.postech.ac.kr/sharing/CTIusjF8d). Please move checkpoint files to SRN-Deblur/checkpoints, DeblurGAN-v2/checkpoints.
 
