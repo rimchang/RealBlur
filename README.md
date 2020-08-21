@@ -82,9 +82,10 @@ Please go to [post processing](./post_processing)
 if you use our dataset for your research, please cite our papers.
 
 ```bibtex
-@inproceedings{rim2020RealBlur,
-  title={Real-World Blur Dataset for Learning and Benchmarking Deblurring Algorithms},
-  author={Jaesung Rim, Haeyun Lee, Jucheol Won, Sunghyun Cho},
-  booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},
-  year={2020}
+@inproceedings{rim_2020_ECCV
+title={Real-World Blur Dataset for Learning and Benchmarking Deblurring Algorithms},
+author={Jaesung Rim, Haeyun Lee, Jucheol Won, Sunghyun Cho},
+booktitle={Proceedings of the European Conference on Computer Vision (ECCV)}
+year={2020}
 }
+```
