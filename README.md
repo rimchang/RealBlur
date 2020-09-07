@@ -29,6 +29,8 @@ We recommend virtual environment using conda or pyenv.
 
 ## Download
 
+**Password : 1234**
+
 For testing, download [RealBlur](https://cgdata.postech.ac.kr:5653/sharing/QK934kLj3).
 
 For training same as our paper, download [RealBlur](https://cgdata.postech.ac.kr:5653/sharing/QK934kLj3), [BSD-B](https://cgdata.postech.ac.kr:5653/sharing/64CujqTyX), [GoPro](https://cv.snu.ac.kr/~snah/Deblur/dataset/GOPRO_Large.zip).
