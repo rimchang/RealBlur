@@ -1,4 +1,4 @@
-*!/bin/bash
+#!/bin/bash
 
 mkdir dataset
 tar -zxvf BSD_B_Centroid.tar.gz -C ./dataset/
