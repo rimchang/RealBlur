@@ -186,7 +186,7 @@ if __name__ == '__main__':
       models.append(model_path)
   print(models)
   if len(models) == 0:
-    models = [result_dir+'/']
+    models = [input_dir+'/']
 
   gt_root = args.gt_root
   gt_roots = [gt_root for j in models]
