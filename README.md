@@ -70,7 +70,7 @@ python predict.py --img_pattern=./datalist/RealBlur_R_test_list.txt --weights_pa
 
 ```bash
 # python3, skimage == 0.17.2, cv2==4.2.0.32
-python evaluation_RealBlur_ecc --gt_root=dataset/RealBlur-J_ECC_IMCORR_centroid_itensity_ref --input_dir=RealBlur_J --core=1 
+python evaluation_RealBlur_ecc.py --gt_root=dataset/RealBlur-J_ECC_IMCORR_centroid_itensity_ref --input_dir=RealBlur_J --core=1 
 ```
 
 ## Post-processing
