@@ -39,6 +39,9 @@ Also, we provide [trained model](https://cgdata.postech.ac.kr/sharing/CTIusjF8d)
 
 Please check "link_file.sh" for appropriate linking of directories and files.
 
+If you have network problem, please use [google drive link](https://drive.google.com/drive/folders/1xUNAAVzLhNQuGriKTk1hrE-MT-H_56fq).
+
+
 ## Training
 
 ```bash
