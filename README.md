@@ -80,6 +80,10 @@ python evaluation_RealBlur_ecc.py --gt_root=dataset/RealBlur-J_ECC_IMCORR_centro
 
 Please go to [post processing](./post_processing)
 
+## License
+
+The RealBlur dataset is released under CC BY 4.0 license.
+
 ## Citation
 
 if you use our dataset for your research, please cite our papers.
