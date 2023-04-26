@@ -35,7 +35,7 @@ For training same as our paper, download [RealBlur](https://cgdata.postech.ac.kr
 
 All datasets should be located in SRN-Deblur/testing_set/, SRN-Deblur/training_set/, DeblurGAN-v2/dataset/. 
 
-Also, we provide [trained model](https://cgdata.postech.ac.kr/sharing/arLpxqXvT). Please move checkpoint files to SRN-Deblur/checkpoints, DeblurGAN-v2/checkpoints.
+Also, we provide [trained models](https://cgdata.postech.ac.kr/sharing/arLpxqXvT). Please move checkpoint files to SRN-Deblur/checkpoints, DeblurGAN-v2/checkpoints.
 
 Please check "link_file.sh" for appropriate linking of directories and files.
 
