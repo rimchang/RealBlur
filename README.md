@@ -86,7 +86,7 @@ The RealBlur dataset is released under CC BY 4.0 license.
 
 ## Citation
 
-if you use our dataset for your research, please cite our paper.
+If you use our dataset for your research, please cite our paper.
 
 ```bibtex
 @inproceedings{rim_2020_ECCV,
