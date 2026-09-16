@@ -2,6 +2,8 @@
 by Jaesung Rim, Haeyun Lee, Jucheol Won, [Sunghyun Cho](https://www.scho.pe.kr/). [[pdf]](http://cg.postech.ac.kr/research/RealBlur/assets/pdf/RealBlur_eccv2020.pdf) [[project]](http://cg.postech.ac.kr/research/RealBlur/)
 
 ### News
+**2026.09** The RAW versions of the RealBlur datasets are now available on Hugging Face: [RealBlur_RAW](https://huggingface.co/datasets/rimchang/RealBlur_RAW) and [RealBlurTele_RAW](https://huggingface.co/datasets/rimchang/RealBlurTele_RAW).
+
 **2022.10** Related work, [Realistic Blur Synthesis for Learning Image Deblurring
 ](https://github.com/rimchang/RSBlur#realistic-blur-synthesis-for-learning-image-deblurring) (real-world blur dataset and blur synthesis pipeline) is accepted by ECCV2022. Code and dataset are available at [RSBlur github](https://github.com/rimchang/RSBlur).
 
