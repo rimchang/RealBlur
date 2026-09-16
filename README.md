@@ -37,8 +37,8 @@ We recommend virtual environment using conda or pyenv.
 
 ### Dataset [\[Hugging Face\]](https://huggingface.co/datasets/rimchang/RealBlur/tree/main) [\[Google Drive\]](https://drive.google.com/drive/folders/1xUNAAVzLhNQuGriKTk1hrE-MT-H_56fq)
 
-1. **RealBlur**: A real-world blur dataset captured with a wide-angle lens.
-2. **RealBlur-Tele**: A real-world blur dataset captured with a telephoto lens.
+1. **RealBlur**: A real-world blur dataset captured with a Sony A7R3.
+2. **RealBlur-Tele**: A real-world blur dataset captured with a Sony A7R3 and a telephoto lens.
 3. **BSD-B**: A synthetic blur dataset generated using blur kernels.
 
 Download the RealBlur dataset using the links above. To reproduce the training setup in our paper, also download [BSD-B](https://huggingface.co/datasets/rimchang/RealBlur/blob/main/BSD_B_Centroid.tar.gz) and [GoPro](https://cv.snu.ac.kr/~snah/Deblur/dataset/GOPRO_Large.zip).
