@@ -30,7 +30,7 @@ We recommend virtual environment using conda or pyenv.
 
 - Python3.6.3
 - cuda9.0
-- ./DeblurGAN-v2/requirements.txt
+- ./DeblurGANv2/requirements.txt
 
 
 ## Download
@@ -43,11 +43,11 @@ We recommend virtual environment using conda or pyenv.
 
 Download the RealBlur dataset using the links above. To reproduce the training setup in our paper, also download [BSD-B](https://huggingface.co/datasets/rimchang/RealBlur/blob/main/BSD_B_Centroid.tar.gz) and [GoPro](https://cv.snu.ac.kr/~snah/Deblur/dataset/GOPRO_Large.zip).
 
-Place the datasets in the appropriate directories: `SRN-Deblur/testing_set/`, `SRN-Deblur/training_set/`, or `DeblurGAN-v2/dataset/`. Refer to `link_file.sh` for the directory structure and file linking.
+Place the datasets in the appropriate directories: `SRN-Deblur/testing_set/`, `SRN-Deblur/training_set/`, or `DeblurGANv2/dataset/`. Refer to `link_file.sh` for the directory structure and file linking.
 
 ### Pretrained Models [\[Hugging Face\]](https://huggingface.co/datasets/rimchang/RealBlur/blob/main/trained_model.tar.gz) [\[Google Drive\]](https://drive.google.com/file/d/16vjNQthYmjne4OtNc65cQlyXUu7ZIMjf/view?usp=drive_link)
 
-Place the checkpoint files in `SRN-Deblur/checkpoints/` or `DeblurGAN-v2/checkpoints/`, depending on the model.
+Place the checkpoint files in `SRN-Deblur/checkpoints/` or `DeblurGANv2/checkpoints/`, depending on the model.
 
 ## Training
 
