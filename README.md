@@ -35,18 +35,19 @@ We recommend virtual environment using conda or pyenv.
 
 ## Download
 
-For testing, download [RealBlur](https://cgdata.postech.ac.kr/sharing/YhKdbtvD0).
+### Dataset [\[Hugging Face\]](https://huggingface.co/datasets/rimchang/RealBlur/tree/main) [\[Google Drive\]](https://drive.google.com/drive/folders/1xUNAAVzLhNQuGriKTk1hrE-MT-H_56fq)
 
-For training same as our paper, download [RealBlur](https://cgdata.postech.ac.kr/sharing/YhKdbtvD0), [BSD-B](https://cgdata.postech.ac.kr/sharing/ak2v58DFR), [GoPro](https://cv.snu.ac.kr/~snah/Deblur/dataset/GOPRO_Large.zip).
+1. **RealBlur**: A real-world blur dataset captured with a wide-angle lens.
+2. **RealBlur-Tele**: A real-world blur dataset captured with a telephoto lens.
+3. **BSD-B**: A synthetic blur dataset generated using blur kernels.
 
-All datasets should be located in SRN-Deblur/testing_set/, SRN-Deblur/training_set/, DeblurGAN-v2/dataset/. 
+Download the RealBlur dataset using the links above. To reproduce the training setup in our paper, also download [BSD-B](https://cgdata.postech.ac.kr/sharing/ak2v58DFR) and [GoPro](https://cv.snu.ac.kr/~snah/Deblur/dataset/GOPRO_Large.zip).
 
-Also, we provide [trained models](https://cgdata.postech.ac.kr/sharing/arLpxqXvT). Please move checkpoint files to SRN-Deblur/checkpoints, DeblurGAN-v2/checkpoints.
+Place the datasets in the appropriate directories: `SRN-Deblur/testing_set/`, `SRN-Deblur/training_set/`, or `DeblurGAN-v2/dataset/`. Refer to `link_file.sh` for the directory structure and file linking.
 
-Please check "link_file.sh" for appropriate linking of directories and files.
+### Pretrained Models [\[Hugging Face\]](https://huggingface.co/datasets/rimchang/RealBlur/blob/main/trained_model.tar.gz) [\[Google Drive\]](https://drive.google.com/file/d/16vjNQthYmjne4OtNc65cQlyXUu7ZIMjf/view?usp=drive_link)
 
-If you have a network problem, please use [google drive link](https://drive.google.com/drive/folders/1xUNAAVzLhNQuGriKTk1hrE-MT-H_56fq).
-
+Place the checkpoint files in `SRN-Deblur/checkpoints/` or `DeblurGAN-v2/checkpoints/`, depending on the model.
 
 ## Training
 
