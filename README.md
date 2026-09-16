@@ -41,7 +41,7 @@ We recommend virtual environment using conda or pyenv.
 2. **RealBlur-Tele**: A real-world blur dataset captured with a telephoto lens.
 3. **BSD-B**: A synthetic blur dataset generated using blur kernels.
 
-Download the RealBlur dataset using the links above. To reproduce the training setup in our paper, also download [BSD-B](https://cgdata.postech.ac.kr/sharing/ak2v58DFR) and [GoPro](https://cv.snu.ac.kr/~snah/Deblur/dataset/GOPRO_Large.zip).
+Download the RealBlur dataset using the links above. To reproduce the training setup in our paper, also download [BSD-B](https://huggingface.co/datasets/rimchang/RealBlur/blob/main/BSD_B_Centroid.tar.gz) and [GoPro](https://cv.snu.ac.kr/~snah/Deblur/dataset/GOPRO_Large.zip).
 
 Place the datasets in the appropriate directories: `SRN-Deblur/testing_set/`, `SRN-Deblur/training_set/`, or `DeblurGAN-v2/dataset/`. Refer to `link_file.sh` for the directory structure and file linking.
 
